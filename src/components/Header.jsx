@@ -4,9 +4,7 @@ import Guide from '../img/Guide.png'
 import Menu from './Menu'
 
 
-const Header = () => {
-
-    const [apretando, setApretando] = useState(false)
+const Header = ({apretando, setApretando}) => {
 
     const handleClick =()=>{
         setApretando(!apretando)
@@ -14,7 +12,7 @@ const Header = () => {
     }
     return (
         
-        <div>
+        
         <div className='w-full  bg-azul fixed flex z-50 '>
             <div className='container w-full gap-1 flex  py-3 p-2 items-center px-8 lg:px-28 relativo'>
                 <div className=' lg:flex-none h-8 w-8 lg:h-16 lg:w-16 relative'>
@@ -38,9 +36,9 @@ const Header = () => {
             
         </div>
         
-        {apretando && (<Menu />)}
         
-         </div>
+        
+         
        
     )
 }
