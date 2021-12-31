@@ -11,7 +11,7 @@ const Cuerpo3 = () => {
           <p className='text-9xl text-blue-900 flex flex-col font-bold'>+5<span className='text-2xl text-black font-medium text-center mt-0 lg:mt-5'>Más de 5 años de <br />experiencia</span></p>
           <p className='  text-9xl text-blue-900 flex flex-col font-bold'>50<span className='text-2xl text-black font-medium text-center mt-0 lg:mt-5'>profesores e <br />instructores.</span></p>
 
-          <div className=' justify-end items-center flex flex-col bg-verde '>
+          <div className=' justify-end items-center flex flex-col  '>
             <div className=''>
               <p className='text-9xl text-blue-900 flex flex-row font-bold'>90<span className='  text-7xl text-blue-900 flex font-extrabold flex-col pt-12'>%</span></p>
             </div>
