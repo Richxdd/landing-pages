@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import Menuhead from '../img/Menu.png'
 import Guide from '../img/Guide.png'
-import Menu from './Menu'
-
 
 const Header = ({apretando, setApretando}) => {
 

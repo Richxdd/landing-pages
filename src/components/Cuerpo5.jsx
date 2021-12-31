@@ -71,7 +71,7 @@ const Cuerpo5 = () => {
 
 
 
-          <div className='bg-blue-800 w-72 h-48 lg:w-96 lg:h-64 rounded-3xl  flex flex-col p-3 text-3xl lg:text-5xl text-white font-bold items-center '>
+          <div className='bg-azul w-72 h-48 lg:w-96 lg:h-64 rounded-3xl  flex flex-col p-3 text-3xl lg:text-5xl text-white font-bold items-center '>
             <p >Desde</p>
             <div className='flex items-end gap-4'>
               <h1 className='text-4xl lg:text-6xl'>s/ <span className=' text-8xl lg:text-9xl'>450</span></h1>

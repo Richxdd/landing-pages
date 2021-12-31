@@ -18,7 +18,7 @@ function App() {
 
 
   return (
-    <div className='flex flex-col relative -z-10'>
+    <div className='flex flex-col '>
       
       <Header apretando={apretando} setApretando={setApretando}/>
       
