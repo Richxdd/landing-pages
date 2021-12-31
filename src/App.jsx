@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import Header from '../src/components/Header'
 import Cuerpo1 from './components/Cuerpo1'
 import Cuerpo2 from './components/Cuerpo2'
@@ -8,33 +8,22 @@ import Cuerpo5 from './components/Cuerpo5'
 import Cuerpo6 from './components/Cuerpo6'
 import Cuerpo7 from './components/Cuerpo7'
 import Footer from './components/Footer'
-import Menu from './components/Menu'
-
 import Wasap from './components/Wasap'
 
 function App() {
 
-  const [apretando, setApretando] = useState(false)
-
-
   return (
-    <div className='flex flex-col '>
-      
-      <Header apretando={apretando} setApretando={setApretando}/>
-      
-      {apretando && (<Menu />)}
-      
-      <Wasap/>
+    <div className='flex flex-col'>
+      <Header />
+      <Wasap />
       <Cuerpo1 />
       <Cuerpo2 />
       <Cuerpo3 />
       <Cuerpo4 />
-      <Cuerpo5/>
-      <Cuerpo6/>
-      <Cuerpo7/>
-
-      <Footer/>
-
+      <Cuerpo5 />
+      <Cuerpo6 />
+      <Cuerpo7 />
+      <Footer />
     </div>
   )
 }

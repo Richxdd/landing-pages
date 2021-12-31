@@ -1,13 +1,18 @@
 import React, { useState } from 'react'
 import Menuhead from '../img/Menu.png'
 import Guide from '../img/Guide.png'
+import Menu from './Menu'
 
-const Header = ({apretando, setApretando}) => {
+const Header = () => {
+
+    const [apretando, setApretando] = useState(false)
 
     const handleClick =()=>{
         setApretando(!apretando)
-        
     }
+
+
+    
     return (
         
         
@@ -28,6 +33,7 @@ const Header = ({apretando, setApretando}) => {
                 
                 <div className='   flex  lg:flex-none h-8 w-8 lg:h-12 lg:w-12 '>
                     <img src={Menuhead} onClick={handleClick} alt='menu' />
+                    {apretando && (<Menu />)}
                 </div>
                 
             </div>
