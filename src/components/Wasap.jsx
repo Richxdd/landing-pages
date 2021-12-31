@@ -10,7 +10,7 @@ const Wasap = () => {
         
             <img src={Wasapi}/> 
             <p > 
-        ¿En qué podemos ayudarte
+        ¿En qué podemos ayudarte?
         </p> 
         </a>
         </div>

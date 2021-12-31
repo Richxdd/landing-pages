@@ -12,14 +12,14 @@ import Guide from '../img/Guide.png'
 const Footer = () => {
     return (
       <div className='bg-zinc-700 '>
-        <footer className='container w-full px-10 py-3 lg:px-40 flex  flex-col text-white lg:flex-row lg:justify-between lg:items-center lg:py-0 lg:gap-20 '>
+        <footer className='container w-full px-10 pt-3 pb-12 lg:px-40 flex  flex-col text-white lg:flex-row lg:justify-between lg:items-center lg:pb-3 lg:py-0 lg:gap-20 '>
             <div className='flex flex-row-reverse justify-between px-4 py-5 lg:flex-row lg:gap-44  lg:flex-1 lg:justify-start'>
            
           <img src={Guide} className='h-24 w-24 '/>
           
           <div className='flex flex-col gap-2'>  
             <ul className='flex items-start justify-start '>
-            <li className='list-none lis text-3xl font-semibold'>Conocenos</li>
+            <li className='list-none lis text-3xl font-semibold'>Conócenos</li>
             </ul>
             <ul className='list-disc  pl-5  text-xl font-normal'>
             <li className=''>Aula Virtual</li>
@@ -69,7 +69,6 @@ const Footer = () => {
            
           </div>
           
-                  
             </footer>
             </div>
     )
